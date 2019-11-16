@@ -15,8 +15,6 @@
 		111C2C7F23784DA8009C29DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111C2C7D23784DA8009C29DB /* LaunchScreen.storyboard */; };
 		111C2C8A23784DA8009C29DB /* CardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C2C8923784DA8009C29DB /* CardsTests.swift */; };
 		111C2C9523784EE1009C29DB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C2C9423784EE1009C29DB /* CardView.swift */; };
-		5F4A7BF8237D904B0087003C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A7BF7237D904B0087003C /* ViewModel.swift */; };
-		5F4A7BFA237D92F60087003C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A7BF9237D92F60087003C /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +40,6 @@
 		111C2C8923784DA8009C29DB /* CardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsTests.swift; sourceTree = "<group>"; };
 		111C2C8B23784DA8009C29DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111C2C9423784EE1009C29DB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		5F4A7BF7237D904B0087003C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		5F4A7BF9237D92F60087003C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,14 +81,14 @@
 		111C2C7123784DA7009C29DB /* Cards */ = {
 			isa = PBXGroup;
 			children = (
-				5F4BA7A3237D6CA70065767F /* Service */,
-				5F4BA7A4237D6CC60065767F /* Modules */,
 				111C2C7223784DA8009C29DB /* AppDelegate.swift */,
 				111C2C7423784DA8009C29DB /* SceneDelegate.swift */,
+				111C2C7623784DA8009C29DB /* ViewController.swift */,
 				111C2C7823784DA8009C29DB /* Main.storyboard */,
 				111C2C7B23784DA8009C29DB /* Assets.xcassets */,
 				111C2C7D23784DA8009C29DB /* LaunchScreen.storyboard */,
 				111C2C8023784DA8009C29DB /* Info.plist */,
+				111C2C9423784EE1009C29DB /* CardView.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -104,80 +100,6 @@
 				111C2C8B23784DA8009C29DB /* Info.plist */,
 			);
 			path = CardsTests;
-			sourceTree = "<group>";
-		};
-		5F4A7BF4237D8F660087003C /* Implementation */ = {
-			isa = PBXGroup;
-			children = (
-				5F4A7BF9237D92F60087003C /* Model.swift */,
-			);
-			path = Implementation;
-			sourceTree = "<group>";
-		};
-		5F4A7BF6237D8F760087003C /* Implementation */ = {
-			isa = PBXGroup;
-			children = (
-				5F4A7BF7237D904B0087003C /* ViewModel.swift */,
-			);
-			path = Implementation;
-			sourceTree = "<group>";
-		};
-		5F4BA7A3237D6CA70065767F /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		5F4BA7A4237D6CC60065767F /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				5F4BA7AA237D6D090065767F /* Model */,
-				5F4BA7A9237D6D030065767F /* Entities */,
-				5F4BA7A8237D6CFE0065767F /* Assembly */,
-				5F4BA7A7237D6CFA0065767F /* View */,
-				5F4BA7A6237D6CF00065767F /* View Model */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		5F4BA7A6237D6CF00065767F /* View Model */ = {
-			isa = PBXGroup;
-			children = (
-				5F4A7BF6237D8F760087003C /* Implementation */,
-			);
-			path = "View Model";
-			sourceTree = "<group>";
-		};
-		5F4BA7A7237D6CFA0065767F /* View */ = {
-			isa = PBXGroup;
-			children = (
-				111C2C7623784DA8009C29DB /* ViewController.swift */,
-				111C2C9423784EE1009C29DB /* CardView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		5F4BA7A8237D6CFE0065767F /* Assembly */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assembly;
-			sourceTree = "<group>";
-		};
-		5F4BA7A9237D6D030065767F /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		5F4BA7AA237D6D090065767F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				5F4A7BF4237D8F660087003C /* Implementation */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,10 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4A7BF8237D904B0087003C /* ViewModel.swift in Sources */,
 				111C2C7723784DA8009C29DB /* ViewController.swift in Sources */,
 				111C2C7323784DA8009C29DB /* AppDelegate.swift in Sources */,
-				5F4A7BFA237D92F60087003C /* Model.swift in Sources */,
 				111C2C9523784EE1009C29DB /* CardView.swift in Sources */,
 				111C2C7523784DA8009C29DB /* SceneDelegate.swift in Sources */,
 			);
