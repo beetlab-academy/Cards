@@ -1,0 +1,6 @@
+framework module CardView {
+  umbrella header "CardView-umbrella.h"
+
+  export *
+  module * { export * }
+}

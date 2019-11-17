@@ -1,0 +1,16 @@
+PODS:
+  - CardView (0.1.0)
+
+DEPENDENCIES:
+  - CardView (from `./Modules/CardView`)
+
+EXTERNAL SOURCES:
+  CardView:
+    :path: "./Modules/CardView"
+
+SPEC CHECKSUMS:
+  CardView: 6c0d9d2ff1e288ed40b47caf85761f0e1c755000
+
+PODFILE CHECKSUM: 0b85e388d05371d9f1fe6c3a755d92184966bcfe
+
+COCOAPODS: 1.8.3

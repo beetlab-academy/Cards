@@ -1,0 +1,21 @@
+{
+  "name": "CardView",
+  "version": "0.1.0",
+  "summary": "A short description of CardView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BeetLab/CardView",
+  "authors": {
+    "BeetLab": "nikita.semenov@wheely.com"
+  },
+  "source": {
+    "git": "https://github.com/BeetLab/CardView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "src/**/*",
+  "frameworks": "UIKit",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
